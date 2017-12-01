@@ -1,9 +1,7 @@
-
-var animal = (function () {
     let carnivores = [];
     let herbivores = [];
 
-    loadCarnivores = function(callbackToInvoke) {
+    module.exports.loadCarnivores = function(callbackToInvoke) {
         const loader = new XMLHttpRequest();
 
         loader.addEventListener("load", function() {
@@ -17,7 +15,7 @@ var animal = (function () {
         loader.send();       
     };
 
-    loadHerbivores = function(callbackToInvoke) {
+    module.exports.loadHerbivores = function(callbackToInvoke) {
         const loader = new XMLHttpRequest();
 
         loader.addEventListener("load", function() {
@@ -31,12 +29,4 @@ var animal = (function () {
         loader.send();       
     };
 
-    return {
-        loadCarnivores: loadCarnivores,
-        loadHerbivores: loadHerbivores
-    };
-
-    // module.exports = { loadCarnivores };
-
-}());
-
+ 
