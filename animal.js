@@ -10,7 +10,7 @@ var animal = (function () {
             carnivores = JSON.parse(this.responseText);
 
             // Now exeute the callback function (`callbackToInvoke`) so that the caller knows that the process is complete. Make sure to pass the carnivore array as an argument.
-            callbackToInvoke(carnivores);
+            callbackToInvoke(carnivores, "Carnivores");
         });
         loader.open("GET", "carnivores.json");  
         loader.send();       
@@ -24,7 +24,7 @@ var animal = (function () {
             herbivores = JSON.parse(this.responseText);
 
             // Now exeute the callback function (`callbackToInvoke`) so that the caller knows that the process is complete. Make sure to pass the carnivore array as an argument.
-            callbackToInvoke(herbivores);
+            callbackToInvoke(herbivores, "Herbivores");
         });
         loader.open("GET", "herbivores.json");  
         loader.send();       
