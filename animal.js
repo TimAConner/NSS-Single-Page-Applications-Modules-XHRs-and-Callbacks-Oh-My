@@ -1,6 +1,6 @@
 (function () {
-    console.log("hello");
     let carnivores = [];
+    let herbivores = [];
 
     loadCarnivores = function(callbackToInvoke) {
     const loader = new XMLHttpRequest();
