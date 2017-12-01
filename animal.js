@@ -1,3 +1,4 @@
+
 var animal = (function () {
     let carnivores = [];
     let herbivores = [];
