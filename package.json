@@ -1,0 +1,23 @@
+{
+  "name": "nss-single-page-applications-modules-xhrs-and-callbacks-oh-my",
+  "version": "1.0.0",
+  "description": "This was practice done while attending the [Nashville Software School](http://nashvillesoftwareschool.com/).",
+  "main": "module-xhr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimAConner/NSS-Single-Page-Applications-Modules-XHRs-and-Callbacks-Oh-My.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimAConner/NSS-Single-Page-Applications-Modules-XHRs-and-Callbacks-Oh-My/issues"
+  },
+  "homepage": "https://github.com/TimAConner/NSS-Single-Page-Applications-Modules-XHRs-and-Callbacks-Oh-My#readme",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.2.0"
+  }
+}
